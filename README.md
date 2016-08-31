@@ -53,18 +53,22 @@
 > **“用户反馈”**，用户在反馈页面提交了反馈信息，数据就会存储到服务器后台的数据库里面
 
 
-### “灵动快传”PC端介绍
+### “灵动快传”Android端介绍
 
-> [点击访问PC端介绍][3]
+> [点击访问Android端介绍][3]
 
 ### “灵动快传”Web端介绍
 
 > [点击访问Web端介绍][4]
 
+### “灵动快传”PC端介绍
+
+> [点击访问PC端介绍][5]
 
 
 
 [1]:http://www.cnsoftbei.com/bencandy.php?fid=130&aid=1379
 [2]:http://www.cnsoftbei.com/
-[3]:https://github.com/zhoubowen-sky/File-Transmit-pc/blob/master/README.md
+[3]:https://github.com/zhoubowen-sky/LingDong2.0/blob/master/README.md
 [4]:https://github.com/zhoubowen-sky/LingDongWeb/blob/master/README.md
+[5]:https://github.com/zhoubowen-sky/File-Transmit-pc/blob/master/README.md
