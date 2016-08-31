@@ -18,15 +18,15 @@
 > 开发语言：Java
 
 #####Android端APP的UI展示
-![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/loading.png)
-![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/cebianlan.png)
-![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/chuansong.png)
-![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/wenjianguanli.png)
-![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/yaokongdiannao.png)
-![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/main.png)
-![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/feedback.png)
-![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/trans.png)
-![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/offlinetrans.png)
+![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/loading.jpg)
+![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/cebianlan.jpg)
+![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/chuansong.jpg)
+![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/wenjianguanli.jpg)
+![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/yaokongdiannao.jpg)
+![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/main.jpg)
+![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/feedback.jpg)
+![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/trans.jpg)
+![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/offlinetrans.jpg)
 
 
 ### 灵动快传
