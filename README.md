@@ -20,6 +20,7 @@
 #####Android端APP的UI展示
 APP首页
 ![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/loading.png)
+![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/cebianlan.png)
 
 
 ### 灵动快传
