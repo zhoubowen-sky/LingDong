@@ -32,7 +32,6 @@
 #####Android端APP程序相关说明
 
 > 程序目录中 **github-images-folder** 文件夹与APP程序无关，里面的图片为Github项目README页面的说明
-> 次APP
 
 
 #####Android端APP功能相关说明
