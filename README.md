@@ -67,5 +67,5 @@
 
 [1]:http://www.cnsoftbei.com/bencandy.php?fid=130&aid=1379
 [2]:http://www.cnsoftbei.com/
-[3]:http://www.cnsoftbei.com/
+[3]:https://github.com/zhoubowen-sky/File-Transmit-pc/blob/master/README.md
 [4]:https://github.com/zhoubowen-sky/LingDongWeb/blob/master/README.md
