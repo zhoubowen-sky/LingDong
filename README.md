@@ -65,6 +65,16 @@
 
 > [点击访问PC端介绍][5]
 
+####关于我们
+
+>此项目为湖北大学 **周博文**、**郑志琦**、**董致礼**三人合力开发。
+>联系方式：
+>董：yhinu@qq.com
+>郑：664837069@qq.com
+>周：zhoubowen.sky@qq.com
+
+
+
 
 
 [1]:http://www.cnsoftbei.com/bencandy.php?fid=130&aid=1379
