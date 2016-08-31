@@ -18,8 +18,8 @@
 > 开发语言：Java
 
 #####Android端APP的UI展示
->APP首页
-
+APP首页
+![image](https://github.com/zhoubowen-sky/LingDong2.0/github-images-folder/loading.png)
 
 
 ### 灵动快传
