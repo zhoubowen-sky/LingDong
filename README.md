@@ -24,6 +24,9 @@
 ![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/wenjianguanli.png)
 ![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/yaokongdiannao.png)
 ![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/main.png)
+![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/feedback.png)
+![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/trans.png)
+![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/offlinetrans.png)
 
 
 ### 灵动快传
