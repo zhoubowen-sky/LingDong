@@ -18,9 +18,12 @@
 > 开发语言：Java
 
 #####Android端APP的UI展示
-APP首页
 ![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/loading.png)
 ![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/cebianlan.png)
+![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/chuansong.png)
+![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/wenjianguanli.png)
+![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/yaokongdiannao.png)
+![image](https://github.com/zhoubowen-sky/LingDong2.0/blob/master/github-images-folder/main.png)
 
 
 ### 灵动快传
