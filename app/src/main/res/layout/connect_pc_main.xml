@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/offline_files_main_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="控制电脑的功能"
+        android:textColor="@color/white"
+        android:textSize="23dp" />
+
+    <Button
+        android:id="@+id/btn_connect_pc_sendfiletopc"
+        android:background="@drawable/offline_files_button_shape"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="发送文件到电脑"
+        android:textSize="18dp"
+        android:textColor="@color/white"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btn_connect_pc_ESC"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/offline_files_button_shape"
+            android:textColor="@color/white"
+            android:text="ESC"/>
+
+        <Button
+            android:id="@+id/btn_connect_pc_UP"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/offline_files_button_shape"
+            android:textColor="@color/white"
+            android:text="向上"/>
+
+        <Button
+            android:id="@+id/btn_connect_pc_ALT_TAB"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/offline_files_button_shape"
+            android:textColor="@color/white"
+            android:text="ALT+TAB"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btn_connect_pc_LEFT"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/offline_files_button_shape"
+            android:textColor="@color/white"
+            android:text="向左"/>
+
+        <Button
+            android:id="@+id/btn_connect_pc_ENTER"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/offline_files_button_shape"
+            android:textColor="@color/white"
+            android:text="ENTER"/>
+
+        <Button
+            android:id="@+id/btn_connect_pc_RIGHT"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/offline_files_button_shape"
+            android:textColor="@color/white"
+            android:text="向右"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btn_connect_pc_WIN"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/offline_files_button_shape"
+            android:textColor="@color/white"
+            android:text="WIN键"/>
+
+        <Button
+            android:id="@+id/btn_connect_pc_DOWN"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/offline_files_button_shape"
+            android:textColor="@color/white"
+            android:text="向下"/>
+
+        <Button
+            android:id="@+id/btn_connect_pc_ScreenCut"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/offline_files_button_shape"
+            android:textColor="@color/white"
+            android:text="电脑截屏"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btn_connect_pc_shutdownpresentscreen"
+            android:background="@drawable/offline_files_button_shape"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:text="关闭PC当前窗口"
+            android:textSize="18dp"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btn_connect_pc_shutdownpc"
+            android:background="@drawable/offline_files_button_shape"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="关闭PC机"
+            android:textSize="18dp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_connect_pc_textcutpaste"
+        android:background="@drawable/offline_files_button_shape"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="文字剪贴"
+        android:textSize="18dp"
+        android:textColor="@color/white"/>
+
+
+
+
+
+</LinearLayout>

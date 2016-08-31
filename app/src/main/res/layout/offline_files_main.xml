@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/offline_files_main_background"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.lingdong20.MainActivity"
+    android:id="@+id/linearlayout">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="灵动快传文件漂流瓶系统"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp" />
+
+
+    <Button
+        android:id="@+id/btnSend_offlinefiles"
+        android:layout_width="190dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/offline_files_button_shape"
+        android:text="扔一个文件漂流瓶"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/btnDown_offlinefiles"
+        android:layout_width="190dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/offline_files_button_shape"
+        android:text="捞一个文件漂流瓶"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/offline_trans_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <include layout="@layout/fab_main" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:text="        本软件大数据由阿里云提供平台支持\n数据分析由湖北大学根号三团队提供技术支持"
+            android:textColor="#FFFFFF"
+            android:textSize="11dp" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

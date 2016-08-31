@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/offline_files_main_background"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:text="请填写您的反馈意见"
+        android:textColor="@color/white"
+        android:textSize="23sp" />
+
+
+    <EditText
+        android:id="@+id/feedback_name_et"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/feeback_button_shape"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="请输入用户名（选填）"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="16dp" />
+
+
+    <EditText
+        android:id="@+id/feedback_email_et"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/feeback_button_shape"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="请输入邮箱地址（选填）"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="16dp" />
+
+
+    <EditText
+        android:id="@+id/feedback_suggestion_et"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/feeback_button_shape"
+        android:ems="10"
+        android:gravity="top|center_horizontal"
+        android:hint="请输入建议和意见（必填）"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="16dp" />
+
+
+    <Button
+        android:id="@+id/feedback_submit_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/feeback_button_shape"
+        android:text="提交建议"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+</LinearLayout>

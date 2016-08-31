@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/multiple_actions"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        fab:fab_addButtonColorNormal="@color/white"
+        fab:fab_addButtonColorPressed="@color/white_pressed"
+        fab:fab_addButtonPlusIconColor="@color/half_black"
+        fab:fab_icon="@drawable/ic_fab_star"
+        fab:fab_labelStyle="@style/menu_labels_style">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_CreateConnection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/mediumturquoise"
+            fab:fab_colorPressed="@color/mediumaquamarine"
+            fab:fab_icon="@drawable/ic_fab_star"
+            fab:fab_title="创建连接" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_ScanToJoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/mediumturquoise"
+            fab:fab_colorPressed="@color/mediumaquamarine"
+            fab:fab_icon="@drawable/ic_fab_star"
+            fab:fab_title="搜索加入" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+    <!-- <TextView
+         android:textSize="20dp"
+         android:id="@+id/textview"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="此处显示搜索结果" />-->
+</RelativeLayout>

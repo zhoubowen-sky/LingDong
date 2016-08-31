@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#BEBEBE">
+
+        <TextView
+            android:id="@+id/pathtext"
+            android:layout_width="270dp"
+            android:layout_height="20dp"/>
+
+
+        <!--设定粘贴按钮一开始隐藏，只有点击复制或者剪切之后才显示，粘贴完后又隐藏-->
+        <Button
+            android:id="@+id/menu"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="粘贴"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/filelist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp">
+
+    </ListView>
+
+
+</LinearLayout>

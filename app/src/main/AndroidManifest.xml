@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lingdong20">
+
+    <!--声明App的相关权限-->
+    <uses-permission android:name="android.permission.INTERNET" /> <!--网络访问-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> <!--SD卡写-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/> <!--SD卡读-->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/> <!-- 加载文件系统的权限 -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" /><!-- 修改网络状态的权限 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /><!-- 修改wifi状态的权限 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/> <!--获取wifi状态-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/> <!--获取网络状态-->
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/><!-- 杀死其他进程的权限 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>  <!--修改系统设置  6.0 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" /><!--允许程序发现和配对蓝牙设备-->
+    <uses-permission android:name="android.permission.BLUETOOTH" /><!--允许程序连接到已配对的蓝牙设备-->
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true">
+        <activity
+            android:name=".LoadingActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="service.ClipBoardActivity" ></activity>
+
+        <service android:name="service.ClipBoardService" >
+        </service>
+
+
+        <activity android:name="MainActivity"></activity>
+        <activity android:name="offlinefiles.Offline_Files_Choose_Activity"></activity>
+        <activity android:name="filesmanage.Files_Manage_Activity"></activity>
+        <activity android:name="feedback.FeedBack"></activity>
+        <activity android:name="filestrans.Files_Trans_Activity"></activity>
+        <activity android:name="filesmanage.Files_Manage_Property"></activity>
+        <activity android:name="textcutpaste.Text_Cut_Paste"></activity>
+        <activity android:name="connectpc.Connect_PC"></activity>
+
+
+    </application>
+
+</manifest>

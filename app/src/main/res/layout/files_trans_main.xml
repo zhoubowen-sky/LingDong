@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/offline_files_main_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="灵动快传文件传送界面"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp" />
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_weight="2"
+        android:background="@drawable/offline_files_button_shape"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="这里显示的是本机IP"
+            android:textColor="#FFFAFA"
+            android:textSize="23dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="下面为对方的IP地址："
+                android:textColor="#FFFFFF"
+                android:textSize="23dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="(一般系统已自动填好，亦可手动填写)"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+
+
+
+
+        <EditText
+            android:id="@+id/txtIP"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/offline_files_button_shape"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="192.168.1.xxx"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp" />
+
+
+
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="320dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="80dp"
+        android:layout_weight="1"
+        android:background="@drawable/offline_files_button_shape"
+        android:text="选择文件并发送"
+        android:textColor="#FFFFFF"
+        android:textSize="23dp" />
+
+
+
+    <EditText
+        android:id="@+id/txtPort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9999"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&#22635;&#20889;&#25509;&#25910;&#26041;&#30340;IP&#22320;&#22336;&#65306;"
+        android:textColor="#FFFFFF"
+        android:visibility="gone" />
+
+
+</LinearLayout>

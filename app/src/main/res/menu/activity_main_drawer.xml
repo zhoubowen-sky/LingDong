@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bluetooth"
+            android:icon="@drawable/ic_menu_bluetooth"
+            android:title="蓝牙传输" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share2"
+            android:title="分享APP" />
+        <item
+            android:id="@+id/nav_connectPC"
+            android:icon="@drawable/ic_menu_connectpc"
+            android:title="连接电脑" />
+        <item
+            android:id="@+id/nav_filesmanage"
+            android:icon="@drawable/ic_menu_filesmanage"
+            android:title="文件管理" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_menu_feedback"
+            android:title="用户反馈" />
+       <!-- <item
+            android:id="@+id/nav_textcutpaste"
+            android:icon="@drawable/ic_menu_softversion"
+            android:title="文本剪贴（测试后期删掉）" />-->
+        <item
+            android:id="@+id/nav_softversion"
+            android:icon="@drawable/ic_menu_softversion"
+            android:title="软件版本" />
+        <item
+            android:id="@+id/nav_softdescribe"
+            android:icon="@drawable/ic_menu_softdescribe"
+            android:title="软件描述" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_menu_aboutus"
+            android:title="关于我们" />
+        <item
+            android:id="@+id/nav_androidversion"
+            android:icon="@drawable/ic_menu_androidversion"
+            android:title="安卓版本" />
+    </group>
+
+</menu>

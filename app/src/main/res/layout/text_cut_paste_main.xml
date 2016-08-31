@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/offline_files_main_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="安卓-PC文本剪贴工具"
+        android:textColor="@color/white"
+        android:textSize="23dp" />
+
+    <EditText
+        android:id="@+id/btn_text_cut_paste"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/offline_files_button_shape"
+        android:hint="这里是文本剪贴框"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:text="发送到PC后直接粘贴"
+        android:background="@drawable/offline_files_button_shape"/>
+
+</LinearLayout>
