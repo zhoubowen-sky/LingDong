@@ -203,13 +203,6 @@ public class Connect_PC  extends Activity {
         });
 
 
-
-
-
-
-
-
-
     }
 
 
@@ -256,8 +249,5 @@ public class Connect_PC  extends Activity {
         }).start();
 
     }
-
-
-
 
 }
