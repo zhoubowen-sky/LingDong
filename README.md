@@ -11,7 +11,7 @@
 
 > 本项目全称为：互联网多平台文件快传系统——灵动快传
 > 
-> 开发人员：周博文 郑志琦 董致礼
+> 开发人员：[周博文][7] [郑志琦][6] [董致礼][8]
 > 
 > 集成开发工具：Android Studio 2.1.2 
 > 
@@ -82,3 +82,7 @@
 [3]:https://github.com/zhoubowen-sky/LingDong2.0/blob/master/README.md
 [4]:https://github.com/zhoubowen-sky/LingDongWeb/blob/master/README.md
 [5]:https://github.com/zhoubowen-sky/File-Transmit-pc/blob/master/README.md
+
+[6]:https://github.com/ZhengZhiQI
+[7]:https://github.com/zhoubowen-sky
+[8]:***
