@@ -42,8 +42,7 @@
 
         <activity android:name="service.ClipBoardActivity" ></activity>
 
-        <service android:name="service.ClipBoardService" >
-        </service>
+        <service android:name="service.ClipBoardService" ></service><!--service的相关声明-->
 
 
         <activity android:name="MainActivity"></activity>
