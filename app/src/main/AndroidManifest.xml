@@ -18,7 +18,7 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" /><!--允许程序发现和配对蓝牙设备-->
     <uses-permission android:name="android.permission.BLUETOOTH" /><!--允许程序连接到已配对的蓝牙设备-->
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /><!--service中显示悬浮在桌面的窗口权限-->
     <uses-permission android:name="android.permission.GET_TASKS" />
 
     <application
