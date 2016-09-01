@@ -11,9 +11,7 @@ import android.os.IBinder;
 import android.util.Log;
 
 /**
- * 
- * @author Administrator
- *
+ * 周博文
  */
 public class ClipBoardService extends Service{
 

@@ -18,7 +18,6 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" /><!--允许程序发现和配对蓝牙设备-->
     <uses-permission android:name="android.permission.BLUETOOTH" /><!--允许程序连接到已配对的蓝牙设备-->
-
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.GET_TASKS" />
 
@@ -52,7 +51,6 @@
         <activity android:name="feedback.FeedBack"></activity>
         <activity android:name="filestrans.Files_Trans_Activity"></activity>
         <activity android:name="filesmanage.Files_Manage_Property"></activity>
-        <activity android:name="textcutpaste.Text_Cut_Paste"></activity>
         <activity android:name="connectpc.Connect_PC"></activity>
 
 

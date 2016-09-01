@@ -29,19 +29,12 @@ public class ClipBoardActivity extends Activity implements OnClickListener {
 
 
 	private Socket socket;
-
 	private TextView mResultTextView;
-
 	private Button mStart;
-
 	private Button mStop;
-
 	private Button mBind;
-
 	private Button mUnBind;
-
 	private Context mContext;
-
 	private ClipBoardReceiver mBoardReceiver;
 
 	private ServiceConnection mServiceConnection = new ServiceConnection() {

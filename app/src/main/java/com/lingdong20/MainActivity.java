@@ -95,8 +95,8 @@ import offlinefiles.HttpThread_UpLoad;
 import offlinefiles.Offline_Files_Choose_Activity;
 import database.LingDongDB;
 
-public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
-public boolean UdpReceiveOut = true;//8秒后跳出udp接收线程
+    public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+    public boolean UdpReceiveOut = true;//8秒后跳出udp接收线程
     /**
      * LingDongRootFolder此程序自己的文件目录
      */
@@ -117,7 +117,6 @@ public boolean UdpReceiveOut = true;//8秒后跳出udp接收线程
      * 显示离线文件传输的日志提醒的Textview，默认情况下文本为空
      */
     public static TextView offline_trans_log;
-
     /**
      * 在MainActivity声明两个Fab按钮，类FloatingActionButton是引入自开源库library
      */
@@ -157,7 +156,6 @@ public boolean UdpReceiveOut = true;//8秒后跳出udp接收线程
     //用以存储传送到文件发送界面的IP，即接收方的IP
     public static String IP_DuiFangde;
 
-
     /*********************************
      * LingDongDB
      **************************************/
@@ -166,7 +164,6 @@ public boolean UdpReceiveOut = true;//8秒后跳出udp接收线程
     public static String Device_ID = "";
 
     /********************************************************************************/
-
 
     /**
      * 声明Handler用来接收并处理子线程的消息并更新UI界面
@@ -366,7 +363,6 @@ public boolean UdpReceiveOut = true;//8秒后跳出udp接收线程
     }
 
 
-
     private Handler handler2 = new Handler() {
         @Override
         public void handleMessage(Message msg) {
@@ -413,7 +409,6 @@ public boolean UdpReceiveOut = true;//8秒后跳出udp接收线程
         }
 
     };
-
 
 
     /***************************************************************************************************************/
@@ -504,7 +499,6 @@ public boolean UdpReceiveOut = true;//8秒后跳出udp接收线程
         String whereClause = "_id = ?";//修改条件
         String[] whereArgs = {"1"};//修改条件的参数
         dbWriter.update(lingdongdb.TABLE_User_Using_Time_Android, cv, whereClause, whereArgs);
-
     }
 
     /**
@@ -586,7 +580,6 @@ public boolean UdpReceiveOut = true;//8秒后跳出udp接收线程
         cv.put(MainActivity.lingdongdb.Trans_Time, MainActivity.getCurrentTime());
         MainActivity.dbWriter.insert(MainActivity.lingdongdb.TABLE_User_Using_Files_Trans_Android, null, cv);
     }
-
 
     /**
      * 获取系统当前的时间
