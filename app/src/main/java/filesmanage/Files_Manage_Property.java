@@ -1,3 +1,6 @@
+/**
+ * 文件属性
+ */
 package filesmanage;
 
 import android.app.Activity;

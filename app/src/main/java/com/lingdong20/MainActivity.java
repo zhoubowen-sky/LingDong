@@ -1,8 +1,5 @@
 /**
- * 1.要在页面中实现fragment,需要MainActivity继承于FragmentActivity;
- * 2.初始化导航条的宽度：initTabLineWidth()，由于本例给出的是3个界面切换，固长度为整个屏幕宽度的1/3;
- * 3.监听事件OnPageChangeListener的onPageScrolled方法主要捕捉滑动事件;
- * 其中给出了3个参数所表示的意义。根据滑动的4中变化(左-中-右-中-左)，给出导航条距离左边的边距，显示导航条滑动的效果。
+ * 这是APP的MainActivity，邓然，前面还有启动界面
  */
 
 package com.lingdong20;

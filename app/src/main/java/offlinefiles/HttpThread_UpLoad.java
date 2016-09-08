@@ -1,3 +1,6 @@
+/**
+ * 离线文件上传线程
+ */
 package offlinefiles;
 
 import com.lingdong20.MainActivity;

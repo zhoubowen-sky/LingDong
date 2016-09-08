@@ -1,8 +1,5 @@
 /**
- * 此文件是选择要发送的文件的时候文件浏览部分的Activity
- * 此文件浏览基于上述explorer文件管理器，这是两个一样的文件浏览器
- * 次Activity的父Activity为Trans_Activity
- * 此Activity的布局文件为files_view_activity_layout.xml
+ * 文件选择
  */
 
 package offlinefiles;

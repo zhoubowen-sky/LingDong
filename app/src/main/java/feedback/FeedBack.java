@@ -1,3 +1,6 @@
+/**
+ * 用户反馈Activity
+ */
 package feedback;
 
 import android.app.Activity;

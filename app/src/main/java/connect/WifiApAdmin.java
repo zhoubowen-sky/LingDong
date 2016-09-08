@@ -1,5 +1,5 @@
 /**
- * 热点开启关闭
+ * 热点开启关闭 wifi管理工具类
  */
 package connect;
 

@@ -1,3 +1,6 @@
+/**
+ * 剪贴板Activity
+ */
 package service;
 
 import android.app.Activity;

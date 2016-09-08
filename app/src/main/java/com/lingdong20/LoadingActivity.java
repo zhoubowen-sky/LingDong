@@ -1,3 +1,6 @@
+/**
+ * APP启动界面
+ */
 package com.lingdong20;
 
 import android.app.Activity;

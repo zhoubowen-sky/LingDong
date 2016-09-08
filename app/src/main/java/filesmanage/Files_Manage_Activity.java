@@ -1,3 +1,6 @@
+/**
+ * 文件管理器
+ */
 package filesmanage;
 
 import android.app.AlertDialog;

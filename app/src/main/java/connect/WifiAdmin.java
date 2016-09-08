@@ -1,3 +1,6 @@
+/**
+ * wifi管理工具类
+ */
 package connect;
 
 import android.content.Context;

@@ -1,3 +1,6 @@
+/**
+ * 用户反馈的上传线程
+ */
 package feedback;
 
 import java.io.BufferedReader;

@@ -1,3 +1,6 @@
+/**
+ * 剪贴板服务
+ */
 package service;
 
 import android.app.Service;

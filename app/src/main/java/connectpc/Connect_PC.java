@@ -1,3 +1,6 @@
+/**
+ * 连接PC的Activity
+ */
 package connectpc;
 
 import android.app.Activity;
