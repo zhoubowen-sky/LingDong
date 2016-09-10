@@ -94,29 +94,17 @@ import database.LingDongDB;
 
     public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     public boolean UdpReceiveOut = true;//8秒后跳出udp接收线程
-    /**
-     * LingDongRootFolder此程序自己的文件目录
-     */
+    /**LingDongRootFolder此程序自己的文件目录*/
     String LingDongRootFolder = "/sdcard/LingDong/";
-    /****
-     * 发送离线文件的按钮
-     ****/
+    /**发送离线文件的按钮*/
     private Button btnSend_offlinefiles;
-    /****
-     * 弹出对话框下载离线文件的按钮
-     ****/
+    /**弹出对话框下载离线文件的按钮**/
     private Button btnDown_offlinefiles;
-    /**
-     * 点两次返回按键退出程序的时间
-     */
+    /**点两次返回按键退出程序的时间*/
     private long mExitTime;
-    /**
-     * 显示离线文件传输的日志提醒的Textview，默认情况下文本为空
-     */
+    /**显示离线文件传输的日志提醒的Textview，默认情况下文本为空*/
     public static TextView offline_trans_log;
-    /**
-     * 在MainActivity声明两个Fab按钮，类FloatingActionButton是引入自开源库library
-     */
+    /**在MainActivity声明两个Fab按钮，类FloatingActionButton是引入自开源库library*/
     private com.getbase.floatingactionbutton.FloatingActionButton fab_CreateConnection;
     private com.getbase.floatingactionbutton.FloatingActionButton fab_ScanToJoin;
     private static String LOG_TAG = "WifiBroadcastActivity";
@@ -141,9 +129,7 @@ import database.LingDongDB;
     /**********************************************************************************************/
     private ImageView iv_scanning;
     private android.support.v4.widget.DrawerLayout rl_root;
-    /*********************
-     * UdpReceive线程
-     **********************/
+    /*********************UdpReceive线程**********************/
 
     Socket socket = null;
     static DatagramSocket udpSocket = null;
@@ -153,9 +139,7 @@ import database.LingDongDB;
     //用以存储传送到文件发送界面的IP，即接收方的IP
     public static String IP_DuiFangde;
 
-    /*********************************
-     * LingDongDB
-     **************************************/
+    /*********************************LingDongDB**************************************/
     public static LingDongDB lingdongdb;  //声明本app的数据库
     public static SQLiteDatabase dbWriter;
     public static String Device_ID = "";
@@ -267,7 +251,7 @@ import database.LingDongDB;
 
 
     /**
-     * Android6.0 获取更改系统设置的权限
+     * Android6.0 获取更改系统设置的权限，app用了其他的方式，这段代码没有用到，删除也可以的
      */
     private void getPermission() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -282,7 +266,7 @@ import database.LingDongDB;
     }
 
 
-    //获取连接到手机热点设备的IP
+    /**获取连接到手机热点设备的IP*/
     StringBuilder resultList;
     ArrayList<String> connectedIP;
 
@@ -325,7 +309,7 @@ import database.LingDongDB;
     }
 
 
-    // wifi热点开关的方法
+    /** wifi热点开关的方法*/
     public boolean setWifiApEnabled(boolean enabled) {
         if (enabled) { // disable WiFi in any case
             //wifi和热点不能同时打开，所以打开热点的时候需要关闭wifi
@@ -1972,7 +1956,7 @@ import database.LingDongDB;
 
     }
 
-    //雷达扫面界面的显示方法
+    /**雷达扫面界面的显示方法*/
     private void showPopupWindow() {
         View popView = View.inflate(getApplicationContext(), R.layout.layout_pop, null);
         iv_scanning = (ImageView) popView.findViewById(R.id.iv_scanning);
@@ -1983,15 +1967,15 @@ import database.LingDongDB;
         popupWindow.showAtLocation(rl_root, Gravity.CENTER, 0, 0);
     }
 
-    //雷达扫面界面的实现方法
+    /**雷达扫面界面的实现方法*/
     private void initAnimation() {
         RotateAnimation rotateAnimation = new RotateAnimation(
                 0, 360,
                 Animation.RELATIVE_TO_SELF, 0.5f,
                 Animation.RELATIVE_TO_SELF, 0.5f);
-        rotateAnimation.setInterpolator(new LinearInterpolator());//��ͣ��
+        rotateAnimation.setInterpolator(new LinearInterpolator());
         rotateAnimation.setDuration(1500);
-        rotateAnimation.setRepeatCount(RotateAnimation.INFINITE);// ����ѭ��
+        rotateAnimation.setRepeatCount(RotateAnimation.INFINITE);
         iv_scanning.startAnimation(rotateAnimation);
 
     }
