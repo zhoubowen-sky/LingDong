@@ -1,5 +1,5 @@
 /**
- * 这是APP的MainActivity，邓然，前面还有启动界面
+ * 这是APP的MainActivity，当然，前面还有启动界面
  */
 
 package com.lingdong20;
